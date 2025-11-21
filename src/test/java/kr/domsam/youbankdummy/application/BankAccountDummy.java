@@ -80,7 +80,7 @@ public class BankAccountDummy extends Dummy {
     @Test
     @Rollback(false)
     void insAddAccount() {
-        final int SIZE = 100;
+        final int SIZE = 100_000;
 
         for(int i=0; i<SIZE; i++) {
             Customer c = customerList.get(  faker.random().nextInt(customerList.size())  );

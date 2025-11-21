@@ -8,8 +8,6 @@ spring:
     database: mysql
     hibernate:
       ddl-auto: none
-      show-sql: true
-      format-sql: true
     properties:
       hibernate:
         jdbc:
